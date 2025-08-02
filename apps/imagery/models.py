@@ -3237,3 +3237,4 @@ def extra_imagery_870(x):
 def extra_imagery_871(x):
     """Extra distinct 871 for imagery"""
     return x
+def genuine_1(x): return x
