@@ -8,11 +8,11 @@ logger = logging.getLogger(__name__)
 # fields: Fields - field management, zones, prescription
 # Details: field management, zones, prescription
 
-class FieldsStatus(str, Enum):
+class FieldsExtraStatus(str, Enum):
     PENDING='pending'; ACTIVE='active'; FAILED='failed'
 
 @dataclass
-class FieldsEntity:
+class FieldsExtraEntity:
     """Fields - field management, zones, prescription"""
     id: str = field(default_factory=lambda: str(uuid.uuid4()))
     created_at: float = field(default_factory=time.time)

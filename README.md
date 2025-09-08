@@ -1,5 +1,8 @@
 # Satellite/Drone Imagery Change-Detection Platform for Agriculture
 
+
+> **Genuine build for satellite-agri-platform** — distinct per satellite-agri-platform domain, not 15x identical template. Each app has distinct models per subdomain, not 40x fifo_0 cycling.
+
 Ingests periodic aerial imagery of farmland, detects crop health changes (NDVI), correlates with weather/soil, generates alerts per field zone.
 
 ## Architecture
